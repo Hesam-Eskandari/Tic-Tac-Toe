@@ -84,7 +84,7 @@ def winner(ground,turn,key,player_1=[],player_2=[]):
         if (np_sum(np_isin(list(set(player_1)),i)*1)==2 or np_sum(np_isin(list(set(player_2)),i)*1)==2):
             print 'here'
     if j == 8:
-        cv2_putText(ground,"No-One Wins",(40,40),cv2_FONT_HERSHEY_SIMPLEX,1,0)
+        cv2_putText(ground,"No-one Wins",(40,40),cv2_FONT_HERSHEY_SIMPLEX,1,0)
         return 3
     return 0
 
